@@ -1,14 +1,14 @@
 digraph  {
-   0 [label="store"];
-   1 [label="load"];
-   2 [label="load"];
-   3 [label="load"];
+   0 [label="store;32"];
+   1 [label="load;64"];
+   2 [label="load;32"];
+   3 [label="load;2048"];
    4 [label="mul"];
    5 [label="add"];
-   6 [label="store"];
-   7 [label="load"];
-   8 [label="load"];
-   9 [label="load"];
+   6 [label="store;64"];
+   7 [label="load;32"];
+   8 [label="load;2048"];
+   9 [label="load;64"];
    10 [label="mul"];
    11 [label="add"];
 

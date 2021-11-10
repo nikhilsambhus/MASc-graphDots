@@ -1,6 +1,6 @@
 digraph  {
-   0 [label="load"];
-   1 [label="store"];
+   0 [label="load;8"];
+   1 [label="store;1"];
 
    0->1 [label=":1"]
 }

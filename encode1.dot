@@ -1,0 +1,17 @@
+digraph  {
+   0 [label="load;1"];
+   1 [label="load;1"];
+   2 [label="fadd"];
+   3 [label="store;64"];
+   4 [label="load;1"];
+   5 [label="load;1"];
+   6 [label="fsub"];
+   7 [label="store;64"];
+
+   0->2 [label=":1"]
+   1->2 [label=":1"]
+   2->3 [label=":1"]
+   4->6 [label=":1"]
+   5->6 [label=":1"]
+   6->7 [label=":1"]
+}

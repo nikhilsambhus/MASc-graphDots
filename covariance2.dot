@@ -1,8 +1,8 @@
 digraph  {
-   0 [label="load;100352"];
-   1 [label="load;128"];
+   0 [label="load;2048"];
+   1 [label="load;32"];
    2 [label="fadd"];
-   3 [label="store;100352"];
+   3 [label="store;32"];
 
    0->2 [label=":1"]
    1->2 [label=":1"]

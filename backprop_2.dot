@@ -1,0 +1,10 @@
+digraph  {
+   0 [label="load;128"];
+   1 [label="fneg"];
+   2 [label="call exp"];
+   3 [label="fadd"];
+
+   0->1 [label=":1"]
+   1->2 [label=":1"]
+   2->3 [label=":1"]
+}
